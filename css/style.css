@@ -1,0 +1,62 @@
+@import url('./menu.css');
+@import url('./sleader.css');
+/*  Merriweather*/
+@import url('./footer.css');
+@import url('./main.css');
+@import url('./article.css');
+/* 011D26*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+
+
+font-family: "DINNextLTPro-Regular",sans-serif;
+  font-size: 18px;
+  */
+:root{
+    --background: #F9F9F9;
+      /*  E0E0E0
+    0A1A2B */
+    --white: white;
+    --blues : #0468FF;
+    --footer: #426876;
+    --font: 'Roboto', sans-serif;
+    --MiniSize:.8125rem;
+    --pretoFranco:rgba(0, 0, 0, 0.623);
+    --sport: #28A745;
+   --culture: #28A745;
+   --tech:#800080;
+   --colorText:#222222;
+    /*
+
+      426876
+    4C6C78*/
+}
+
+
+body{
+    background: var(--background); 
+    color: var(--colorText);
+}
+.container{
+    padding-inline: 10px;
+    margin: 10px auto;
+    max-width: 1000px;
+}
+/*
+reset
+*/
+img{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
