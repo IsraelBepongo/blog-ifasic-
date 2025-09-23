@@ -1,0 +1,36 @@
+.navs-sleader {
+    display: flex;
+    gap: 0 7px;
+    padding: 10px 20px;
+    overflow: hidden; /* We hide the scrollbar and control movement with JS */
+    white-space: nowrap;
+    cursor: grab; /* Adds a visual cue that the element is draggable */
+}
+
+.navs-sleader-items {
+    display: inline-block;
+    color: var(--colorText);
+    opacity: .8;
+    border: 1px solid var(--blues);
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--font);
+    text-transform: capitalize;
+    width: 180px;
+    text-align: center;
+    border-radius: 5px;
+    text-wrap: nowrap;
+    transition: .7s; 
+}
+
+.navs-sleader-items:hover {
+    color: rgba(255, 255, 255, 0.788);
+    background: var(--blues);
+}
+
+.navs-sleader-items.active {
+    color: rgba(255, 255, 255, 0.788);
+    background: var(--blues);
+    border: 1px solid transparent;
+}
