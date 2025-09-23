@@ -1,0 +1,74 @@
+.article-bar{
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    padding: 15px;
+}
+.article-title{
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight:900;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.articles-articles{
+    margin-bottom: 10px;
+}
+.articles-articles-title{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: justify;
+    font-family: var(--font);
+}
+
+.article-articles::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.26);
+}
+.article-articles.fin::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    background: transparent;
+}
+
+
+.articles-articles-categories{
+    text-transform: capitalize;
+     font-family: var(--font);
+     font-size: 14px;
+}
+.articles-articles-categories::before{
+    content: '';
+    display: inline-block;
+    background: black;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+
+
+}
+.article{
+    margin-top: 50px ;
+    margin-bottom: 80px;
+}
+.articles-articles-categories.sport::before{
+    content: '';
+    display: inline-block;
+    
+    background: #17A2B8;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+
+
+}
+
+
+
