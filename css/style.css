@@ -5,6 +5,7 @@
 @import url('./main.css');
 @import url('./article.css');
 @import url('./video.css');
+@import url('./infos.css');
 /* 011D26*/
 *{
     margin: 0;
@@ -27,10 +28,13 @@ font-family: "DINNextLTPro-Regular",sans-serif;
     --font: 'Roboto', sans-serif;
     --MiniSize:.8125rem;
     --pretoFranco:rgba(0, 0, 0, 0.623);
+    --fsSize: 1.4375rem;
     --sport: #28A745;
    --culture: #28A745;
    --tech:#800080;
    --colorText:#222222;
+   --politique:#E0E0E0;
+   --bars:rgba(0, 0, 0, 0.781);
     /*
 
       426876
@@ -64,7 +68,48 @@ a{
     content: '';
     display: block;
     margin: 3px 0 ;
-    background-color: rgba(0, 0, 0, 0.781);
+    background-color: var(--bars);
     width: 100%;
     height: 2px ;
 }
+/* .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #ccc;
+  border-radius: 34px;
+  transition: background 0.4s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  left: 3px;
+  bottom: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+
+input:checked + .slider {
+  background: #0d6efd;
+}
+
+input:checked + .slider::before {
+  transform: translateX(22px);
+}*/
