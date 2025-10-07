@@ -92,7 +92,7 @@
 
     }
     
-    .main-sections:nth-child(4)::after{
+    .main-sections:last-child::after{
 
         content: '';
         background-color: rgba(0, 0, 0, 0.486);
