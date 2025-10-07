@@ -2,9 +2,11 @@
     display: flex;
     gap: 0 7px;
     padding: 10px 20px;
-    overflow: hidden; /* We hide the scrollbar and control movement with JS */
+    overflow: hidden; 
     white-space: nowrap;
-    cursor: grab; /* Adds a visual cue that the element is draggable */
+    cursor: grab;
+    padding-left: 10px; 
+    
 }
 
 .navs-sleader-items {
