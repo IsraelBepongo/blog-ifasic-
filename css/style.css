@@ -6,6 +6,8 @@
 @import url('./article.css');
 @import url('./video.css');
 @import url('./infos.css');
+@import url('./footere.css');
+@import url('./revue.css');
 /* 011D26*/
 *{
     margin: 0;
@@ -13,7 +15,9 @@
     box-sizing: border-box;
 }
 /*
+011D26
 
+426876
 
 font-family: "DINNextLTPro-Regular",sans-serif;
   font-size: 18px;
@@ -24,7 +28,7 @@ font-family: "DINNextLTPro-Regular",sans-serif;
     0A1A2B */
     --white: white;
     --blues : #0468FF;
-    --footer: #426876;
+    --footer: #011D26;
     --font: 'Roboto', sans-serif;
     --MiniSize:.8125rem;
     --pretoFranco:rgba(0, 0, 0, 0.623);
@@ -35,6 +39,7 @@ font-family: "DINNextLTPro-Regular",sans-serif;
    --colorText:#222222;
    --politique:#E0E0E0;
    --bars:rgba(0, 0, 0, 0.781);
+   --policy: 'lato';
     /*
 
       426876
@@ -113,3 +118,4 @@ input:checked + .slider {
 input:checked + .slider::before {
   transform: translateX(22px);
 }*/
+

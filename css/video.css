@@ -85,10 +85,10 @@
         width: 100%;
        background:    linear-gradient(
       to bottom left, 
-      rgba(0, 0, 139, 0.2) 0%,       /* bleu en haut droit, faible opacité */
-      rgba(0, 0, 0, 0.6) 60%,        /* noir commence fort à 60% hauteur */
-      rgba(0, 0, 0, 0.9) 100%        /* noir très opaque en bas gauche */
-    );
+      rgba(0, 0, 139, 0.2) 0%,       
+      rgba(0, 0, 0, 0.6) 60%,        
+      rgba(0, 0, 0, 0.9) 100%
+      );
     }
 
 }
