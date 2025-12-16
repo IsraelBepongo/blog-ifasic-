@@ -5,7 +5,7 @@
 .article-bar{
     border: 2px solid var(--colorBordeur);
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 5px;
 }
 .article-title{
@@ -109,9 +109,11 @@
 
 @media only  screen and (max-width:950px) and (min-width:920px) {
  
+
     .article-bar{
         
           height: 564px;
+             margin-top: 55px;
         .article-title{
             margin-bottom: 10px;
           
