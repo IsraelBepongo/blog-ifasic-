@@ -1,13 +1,15 @@
 .navs-sleader {
     display: flex;
     gap: 0 7px;
-    padding: 10px 20px;
     overflow: hidden; 
     white-space: nowrap;
-    cursor: grab;
-    padding-left: 10px; 
-    
+    cursor: grab;   
+    padding-bottom: 12px;
+    font-style: italic;
 }
+
+
+
 
 .navs-sleader-items {
     display: inline-block;
@@ -35,4 +37,42 @@
     color: rgba(255, 255, 255, 0.788);
     background: var(--blues);
     border: 1px solid transparent;
+}
+
+
+  @media only  screen and (max-width:1049px) and (min-width:920px) {
+
+    
+    .navs-sleader {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    margin-top: 52px;
+    cursor: pointer;
+    
+    }
+    .navs-sleader-items {
+    display: block;
+      width: 120px;
+        padding: 5px;
+}
+
+}
+
+
+@media only  screen and (min-width:1050px) {
+ .navs-sleader {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    margin-top: 52px;
+    cursor: pointer;
+    
+    }
+    .navs-sleader-items {
+    display: block;
+      width: 120px;
+        padding: 5px;
+}
+
 }
