@@ -1,4 +1,20 @@
-<script>
+import { dark } from "./dark.js";
+
+const d = new dark('body')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         document.addEventListener('DOMContentLoaded', function() {
     const slider = document.querySelector('.navs-sleader');
     let isDown = false;
@@ -48,4 +64,4 @@
         slider.scrollLeft = scrollLeft - walk;
     });
 });
-     </script>
+     
