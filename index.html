@@ -6,128 +6,181 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="./js/app.js" type="module" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Blog-horty</title>
+    <title>Blog horty</title>
 </head>
-<body>
-    <div class="nav-sleader ">
-        <div class="navs-sleader">
-            <a href="#" class="navs-sleader-items active ">all</a>
-            <a href="#"class="navs-sleader-items">music</a>
-            <a href="#"class="navs-sleader-items ">politique</a>
-            <a href="#"class="navs-sleader-items">sport</a>
-            <a href="#"class="navs-sleader-items">afrique</a>
-            <a href="#"class="navs-sleader-items">centre d'interet</a>
-        </div>
-    </div>
-    <main>
+<body class="">
+
+
+    <header class="nav-navbar">
         <div class="container">
-           <div class="main-grid">
-            <div class="">
-                <h1 class="main-grid-title bars">actualites</h1>
-            </div>
-            <div class="">
-                
-               <div class="main-main">
-                <a href="">
-                    <div class="main-image">
-                        <img src="./image/pexels-runffwpu-2567025.jpg" alt="" class="images">
-                    </div>
-                </a>
-                    <div class="main-text">
-                        <h1 class="main-title">  Mondiaux d'athlétisme : Armand Duplantis franchit 6,30 m à la perche, son 14e record du monde </h1>
-            
-                        <div class="main-categories">
-                            <div class="main-category sport">sport</div>
-                            <div class="main-date">le 12/06/2025</div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-            <div class="">
-                
-               <div class="main-main">
-                <a href="">
-                    <div class="main-image">
-                        <img src="./image/Billon TV5.webp" alt="" class="images">
-                    </div>
-                </a>
-                    <div class="main-text">
-                        <h1 class="main-title"> Présidentielle en Côte d’Ivoire : qui sont les cinq candidats en lice pour le scrutin d’octobre ? 
-                        </h1>
-            
-                        <div class="main-categories">
-                            <div class="main-category">musique</div>
-                            <div class="main-date">le 12/06/2025</div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-            
-           <div class="">
-               <div class="main-main">
-                    <a href="">
-                    <div class="main-image">
-                        <img src="./image/images.jpg" alt="" class="images">
-                    </div>
-                    </a>
-                    <div class="main-text">
-                        <h1 class="main-title"> 
-                            RD Congo : sous pression, le président de l'Assemblée nationale Vital Kamerhe démissionne
+            <div class="nav-top">
+                <div class="nav-top-logo">
+                    Actus <span>JMK</span>
+                </div>
+                <div class="nav-top-menu" style="display: none;">
+                    <a href="">home</a>
+                    <a href="">podcast</a>
+                    <a href="">music</a>
+                    <a href="">sport</a>
+                </div>
+                <div class="nav-top-params">
+                    <svg>
 
-                        </h1>
-            
-                        <div class="main-categories">
-                            <div class="main-category">politique</div>
-                            <div class="main-date">le 12/06/2025</div>
+                        <use href="./svg/search.svg#search"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="nav-bottom" style="display: flex;">
+                    <div class="nav-bottom-lang">
+                        <div class="">
+                            <div class="">fr</div>
                         </div>
                     </div>
-               </div>
-            </div>
-           <div class="">
-               <div class="main-main">
-                    <a href="">
-                    <div class="main-image">
-                        <img src="./image/field_media_image-2955350-f94c3c2f93636789eeca1b7fd3fa2413ad1b5e95.webp" alt="" class="images">
-                    </div>
-                    </a>
-                    <div class="main-text">
-                        <h1 class="main-title"> "Mon coeur est à Lagos": Akinola Davies célèbre la sortie au Nigeria de son film primé à Cannes
+                    <div class="nav-bottom-search">
+                        <svg>
 
-                        </h1>
-            
-                        <div class="main-categories">
-                            <div class="main-category culture">culture</div>
-                            <div class="main-date">le 12/06/2025</div>
-                        </div>
+                        <use href="./svg/sprite.svg#menu"></use>
+                    </svg>
                     </div>
-               </div>
             </div>
-            <div class="">
-               <div class="main-main">
-                    <a href="">
+        </div>
+    </header>
+
+    <header class="header-main-sleader container">  
+        <div class="nav-sleader">
+            <div class="navs-sleader">
+                <a href="#éll" class="navs-sleader-items active ">all</a>
+                <a href="#music"class="navs-sleader-items">music</a>
+                <a href="#politique"class="navs-sleader-items ">politique</a>
+                <a href="#sport"class="navs-sleader-items">sport</a>
+                <a href="#afrique"class="navs-sleader-items">afrique</a>
+                <a href="#afrique"class="navs-sleader-items">centre d'interet</a>
+            </div>
+        </div>  
+        <main class="main">
+           <div class="main-grids">
+                  <div class="grid-title">
+                    <h1 class="main-grid-title bars">actualites</h1>
+                </div>
+                <div class="mains">
+                    <div class="main-main">
+                            <div class="main-image">
+                                <img src="./image/pexels-runffwpu-2567025.jpg" alt="" class="images">
+                            </div>
+                            <div class="main-text">
+                                <div class="">
+                                    <a href="">
+                                        <h1 class="main-title">  Mondiaux d'athlétisme : Armand Duplantis franchit 6,30 m à la perche, son 14e record du monde </h1>
+                                    </a>
+                                </div>
+                                <div class="main-categories">
+                                    <div class="main-category sport">sport</div>
+                                    <div class="main-date"> le 12/06/2025</div>
+                                </div>
+                        </div>
+                            
+                    </div> 
+                    <div class="main-main">
+                            <div class="main-image">
+                                <img src="./image/images.jpg" alt="" class="images">
+                            </div>
+                            <div class="main-text">
+                                <div class="">
+                                    <a href="">
+                                        <h1 class="main-title"> 
+                                            RD Congo : sous pression, le président de l'Assemblée nationale Vital Kamerhe démissionne
+
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="main-categories">
+                                    <div class="main-category">politique</div>
+                                    <div class="main-date">le 12/06/2025</div>
+                                </div>
+                            </div>
+                            
+                      </div>
+                    <div class="main-main">
+                        <div class="main-image">
+                                <img src="./image/Billon TV5.webp" alt="" class="images">
+                        </div>
+                        <div class="main-text">
+                                <div class="">
+                                    <a href="">
+                                          <h1 class="main-title"> Présidentielle en Côte d’Ivoire : qui sont les cinq candidats en lice pour le scrutin d’octobre
+                                            </h1>
+                                    </a>
+                                </div>
+                             <div class="main-categories">
+                                     <div class="main-category music">musique</div>
+                                    <div class="main-date">le 12/06/2025</div>
+                                </div>
+                            </div>
+                            
+                    </div> 
+                     
+                      <div class="main-main">
+                            <div class="main-image">
+                                <img src="./image/field_media_image-2955350-f94c3c2f93636789eeca1b7fd3fa2413ad1b5e95.webp" alt="" class="images">
+                            </div>
+                            <div class="main-text">
+                                <div class="">
+                                    <a href="">
+                                        <h1 class="main-title"> Mon coeur est à Lagos: Akinola Davies célèbre la sortie au Nigeria de son film primé à Cannes
+
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="main-categories">
+                                    <div class="main-category culture">culture</div>
+                                    <div class="main-date">le 12/06/2025</div>
+                                </div>
+                            </div>
+                            
+                      </div>
+                      <div class="main-main">
                     <div class="main-image">
                         <img src="./image/téléchargement.jpg" alt="" class="images">
                     </div>
-                    </a>
                     <div class="main-text">
-                        <h1 class="main-title"> 
-                            RD Congo : des salles multimédias pour un accès pour tous grâce à l'IA
+                       <a href="">
+                         <h1 class="main-title"> 
+                            RD Congo : des salles multimédias pour un accès pour tous grâce à l'IA une partenariat avec Vodacom
                          
                         </h1>
+                       </a>
             
                         <div class="main-categories">
-                            <div class="main-category sport">tech</div>
+                            <div class="main-category tech">technologie</div>
                             <div class="main-date">le 12/06/2025</div>
                         </div>
                     </div>
-               </div>
-            </div>
+                    </div>
+                        <div class="main-main">
+                            <div class="main-image">
+                                <img src="./image/télé.jpeg" alt="" class="images">
+                            </div>
+                            <div class="main-text">
+                                
+                                    <h1 class="main-title"> 
+                                        <a href="">
+                                        La maison communal de la GOMBE se fait equipe des nouveau equipement informatique pour...
+                                        </a>
+                                    </h1>
+                                
+                    
+                                <div class="main-categories">
+                                    <div class="main-category tech">technologie</div>
+                                    <div class="main-date">le 12/06/2025</div>
+                                </div>
+                            </div>
+                    </div>
+                        </div>
            </div>
-        </div>
-    </main>
-    <div class="article container">
-      
+        </main>
+        
         <div class="article-bar">
             <h1 class="article-title"> l'info en continu </h1>
             <div class="article-article">
@@ -171,6 +224,7 @@
                         sport
                     </div>
                 </div>
+                
                 <div class="article-articles fin">
                     <div class="articles-articles">
                         <a href="#" class="articles-articles-title">
@@ -184,12 +238,15 @@
             </div>
             
         </div>
-    </div>
-   
+    
+    </header>
      <section class="section-video">
         <div class="container">
-                <h1 class="video-grid-title bars">L'Actualité en vidéo</h1>
+                <h1 class="video-grid-title bars">Actualité en vidéo</h1>
             <div class="sections-videos">
+                 
+          
+
                 <div class="section">
                     <div class="section-video-image">
                         <img src="./image/SXJ6QSQYUFEURDVNVAVB4MBCJY.jpg" alt="">
@@ -217,6 +274,31 @@
                             </div>                           
                     </div>
                      
+                </div>
+                
+                <div class="section">
+                    <div class="section-video-image">
+                        <img src="./image/post_1758585710.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <div class="section-video-top-title">
+                            Devant la 80e Assemblée générale de l’ONU tenue mardi 23 septembre 2025, le chef de l’État congolais 
+                        </div>
+                        <div class="play-play">
+                            <svg class="play">
+                                <use href="./svg/sprite.svg#play"></use>
+                            </svg>    
+                        </div>
+                          <div class="botton-time">
+                         <svg class="horloge">
+                                <use href="./svg/sprite.svg#times"></use>
+                            </svg>
+                            <div class="botton-text">
+                                 3 min 
+                            </div>                           
+                    </div>                        
+                    </div>
+                   
                 </div>
                 <div class="section">
                     <div class="section-video-image">
@@ -265,229 +347,104 @@ ONU: le Qatar réaffirme son soutien et son engagement en faveur de la paix et d
                             </div>                           
                     </div>
                 </div>
+                <div class="section">
+                    <div class="section-video-image">
+                        <img src="./image/post_1758585710.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <div class="section-video-top-title">
+                            Devant la 80e Assemblée générale de l’ONU tenue mardi 23 septembre 2025, le chef de l’État congolais 
+                        </div>
+                        <div class="play-play">
+                            <svg class="play">
+                                <use href="./svg/sprite.svg#play"></use>
+                            </svg>    
+                        </div>
+                          <div class="botton-time">
+                         <svg class="horloge">
+                                <use href="./svg/sprite.svg#times"></use>
+                            </svg>
+                            <div class="botton-text">
+                                 3 min 
+                            </div>                           
+                    </div>                        
+                    </div>
+                   
+                </div>
+                <div class="section">
+                    <div class="section-video-image">
+                        <img src="./image/qatar.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <div class="section-video-top-title">
+ONU: le Qatar réaffirme son soutien et son engagement en faveur de la paix et des efforts humanitaires dans</div>
+                        <div class="play-play">
+                            <svg class="play">
+                                <use href="./svg/sprite.svg#play"></use>
+                            </svg>
+                            
+                        </div>
+                    </div>
+                     <div class="botton-time">
+                         <svg class="horloge">
+                                <use href="./svg/sprite.svg#times"></use>
+                            </svg>
+                            <div class="botton-text">
+                                 1 min 
+                            </div>                           
+                    </div>
+                </div>
+                 <div class="section">
+                    <div class="section-video-image">
+                        <img src="./image/qatar.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <div class="section-video-top-title">
+ONU: le Qatar réaffirme son soutien et son engagement en faveur de la paix et des efforts humanitaires dans</div>
+                        <div class="play-play">
+                            <svg class="play">
+                                <use href="./svg/sprite.svg#play"></use>
+                            </svg>
+                            
+                        </div>
+                    </div>
+                     <div class="botton-time">
+                         <svg class="horloge">
+                                <use href="./svg/sprite.svg#times"></use>
+                            </svg>
+                            <div class="botton-text">
+                                 1 min 
+                            </div>                           
+                    </div>
+                </div>
+                
             </div>
+           
         </div>
     </section>
-    <section class="section-infos">
+       <section class="section-infos">
             <div class="container">
-                <div class="">
-                    <div class="">
-                        <div class="sections">
-                            <div class="herder-sections-header">
-                                <div class="d-fle">
-                                     <span class="spans"></span>
-                                    <div class="herder-sections-header-title">afrique</div>
-                                </div>
-                                <div class="">
+               <div class="sections-flex">
+                    <div class="sections">
+                        <div class="herder-sections-header">
+                            <div class="d-fle">
+                                    <span class="spans"></span>
+                                    <div class="herder-sections-header-title">asie</div>
+                            </div>
+                            <div class="">
                                   <a href="">
                                     <svg class="fleche">
                                         <use href="./svg/fleche.svg#ok" ></use>
                                     </svg>
                                   </a>
-                                </div>
                             </div>
-                              <div class="mains-sections">
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - Cameroun</div>
-                                    <div class="herder-corps">
-                                        <a href="#">Cameroun : le chanteur Hen's, une voix artistique et politique </a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">music</div>
-                                        <div class="herder-footer-type"> - video</div>
-
-                                        
-                                    </div>
-                                </div>
-                                 <div class="main-sections">
-                                    <div class="herder-pays"> - RDC</div>
-                                    <div class="herder-corps">
-                                        <a href="#">L'Artiste congolais Fally Ipupa fixe la date de son concert dans le stade de France le 2/08/2026</a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">musique</div>
-                                        <div class="herder-footer-type"> - Récit</div>
-
-                                        
-                                    </div>
-                                </div>
-                                   <div class="main-sections">
-                                        <div class="herder-pays"> - cote d'ivoire </div>
-                                        <div class="herder-corps">
-                                            <a href="#">
-                                                Présidentielle en Côte d’Ivoire : le rôle clé de deux institutions chargées d'encadrer le scrutin                                         </div>
-                                        <div class="herder-footer">
-                                            <div class="herder-footer-category">politique</div>
-                                                <div class="herder-footer-type"> - Récit</div>
-                                        </div>
-                                </div>
-                                <div class="main-sections">
-                                     <div class="herder-pays"> - angola </div>
-                                    <div class="herder-corps">
-                                        <a href="#">
-                                            En 2026, Lobito Atlantic Railway transportera 240 000 tonnes de cuivre de Kolwezi à Lobito », déclare Nicholas Fournier                                         </a>
-                                     </div>
-                                      <div class="herder-footer">
-                                            <div class="herder-footer-category">politique</div>
-                                                <div class="herder-footer-type"> - Récit</div>
-                                        </div>
-                                </div>
-                              </div>
-                        </div>
-                          <div class="sections">
-                            <div class="herder-sections-header">
-                                <div class="d-fle">
-                                    <span class="spans"></span>
-                                    <div class="herder-sections-header-title">amerique</div>
-                                </div>
-                                <div class="">
-                                  <a href="">
-                                      <svg class="fleche">
-                                        <use href="./svg/fleche.svg#ok" ></use>
-                                    </svg>
-                                  </a>
-                                </div>
-                            </div>
-                            <div class="mains-sections">
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - usa</div>
-                                    <div class="herder-corps">
-                                        <a href="#">La croissance mondiale commence à relantir sous l'effet des droits de doumes americain </a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">politique</div>
-                                           <div class="herder-footer-type"> - Récit</div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - bresil</div>
-                                    <div class="herder-corps">
-                                        <a href="#">Trafic d’êtres humains : le Brésil et l’Afrique du Sud dans le viseur des Etats-Unis</a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">politique</div>
-                                           <div class="herder-footer-type"> - video</div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - argentina </div>
-                                    <div class="herder-corps">
-                                        <a href="#">
-                                            En Argentine, Javier Milei enchaîne les revers avant les élections législatives de mi-mandat
-                                        </a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">politique</div>
-                                         <div class="herder-footer-type"> - Récit</div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - mexique </div>
-                                    <div class="herder-corps">
-                                        <a href="#">
-Qui est Claudia Sheinbaum, la présidente du Mexique qui réussit à tenir tête à Donald Trump ? Comprendre en trois minutes                                        </a>
-                                        </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category"> politique</div>
-                                        <div class="herder-footer-type"> - video</div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                          <div class="sections">
-                            <div class="herder-sections-header">
-                                <div class="d-fle">
-                                    <span class="spans"></span>
-                                    <div class="herder-sections-header-title">europe</div>
-                                </div>
-                                <div class="">
-                                  <a href="">
-                                      <svg class="fleche">
-                                        <use href="./svg/fleche.svg#ok" ></use>
-                                    </svg>
-                                  </a>
-                                </div>
-                            </div>
-                            <div class="mains-sections">
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - russie</div>
-                                    <div class="herder-corps">
-                                        <a href="#">
-                                            La Russie affirme avoir intercepté plus de 250 drones d'une attaque ukrainienne massive    
-                                        </a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">politique</div>
-                                           <div class="herder-footer-type"> - Récit</div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - france </div>
-                                    <div class="herder-corps">
-                                        <a href="#">
-                                            “Pitoyable” : le judoka japonais Tatsuru Saito, battu par Teddy Riner, partage son immense déception </a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">sport</div>
-                                           <div class="herder-footer-type"> - video</div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - Espagne </div>
-                                    <div class="herder-corps">
-                                        <a href="#">
-                                            Lamine Yamal : le père du prodige espagnol poignardé, quatre personnes ont été interpellées 
-                                         </a>
-                                    </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category">sport</div>
-                                         <div class="herder-footer-type"> - Récit</div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="main-sections">
-                                    <div class="herder-pays"> - france  </div>
-                                    <div class="herder-corps">
-                                        <a href="#">
-Le Nobel de médecine décerné à un trio pour la recherche sur le contrôle du système immunitaire
-
-                                        </a>
-                                        </div>
-                                    <div class="herder-footer">
-                                        <div class="herder-footer-category"> medecine </div>
-                                        <div class="herder-footer-type"> - video</div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                         <div class="sections">
-                            <div class="herder-sections-header">
-                                <div class="d-fle">
-                                    <span class="spans"></span>
-                                    <div class="herder-sections-header-title">asie</div>
-                                </div>
-                                <div class="">
-                                  <a href="">
-                                      <svg class="fleche">
-                                        <use href="./svg/fleche.svg#ok" ></use>
-                                    </svg>
-                                  </a>
-                                </div>
-                            </div>
-                             <div class="mains-sections">
+                         </div>
+                          <div class="mains-sections">
                                 <div class="main-sections">
                                     <div class="herder-pays"> - Japon </div>
                                     <div class="herder-corps">
                                         <a href="#">
-                                                Japon : Sanae Takaichi, cheffe du parti au pouvoir et probable première femme Premier ministre    
+                                                Japon : Sanae Takaichi, cheffe du parti au pouvoir et probable première femme Premier
                                         </a>
                                     </div>
                                     <div class="herder-footer">
@@ -533,35 +490,209 @@ Le Nobel de médecine décerné à un trio pour la recherche sur le contrôle du
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
-                </div>
+                    <div class="sections">
+                        <div class="herder-sections-header">
+                            <div class="d-fle">
+                                    <span class="spans"></span>
+                                    <div class="herder-sections-header-title">afrique</div>
+                            </div>
+                            <div class="">
+                                  <a href="">
+                                    <svg class="fleche">
+                                        <use href="./svg/fleche.svg#ok" ></use>
+                                    </svg>
+                                  </a>
+                            </div>
+                         </div>
+                           <div class="mains-sections">
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - Cameroun</div>
+                                    <div class="herder-corps">
+                                        <a href="#">Cameroun : le chanteur Hen's, une voix artistique et politique pour un concert politique pour la partie au pouvoir</a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">music</div>
+                                        <div class="herder-footer-type"> - video</div>
+
+                                        
+                                    </div>
+                                </div>
+                                 <div class="main-sections">
+                                    <div class="herder-pays"> - RDC</div>
+                                    <div class="herder-corps">
+                                        <a href="#">L'Artiste congolais Fally Ipupa fixe la date de son concert dans le stade de France</a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">musique</div>
+                                        <div class="herder-footer-type"> - Récit</div>
+
+                                        
+                                    </div>
+                                </div>
+                                   <div class="main-sections">
+                                        <div class="herder-pays"> - cote d'ivoire </div>
+                                        <div class="herder-corps">
+                                            <a href="#">
+                                                Présidentielle en Côte d’Ivoire : le rôle clé de deux institutions chargées d'encadrer le scrutin                                         </div>
+                                        <div class="herder-footer">
+                                            <div class="herder-footer-category">politique</div>
+                                                <div class="herder-footer-type"> - Récit</div>
+                                        </div>
+                                </div>
+                                <div class="main-sections">
+                                     <div class="herder-pays"> - angola </div>
+                                    <div class="herder-corps">
+                                        <a href="#">
+                                            En 2026, Lobito Atlantic Railway transportera 240 000 tonnes de cuivre de Kolwezi à Lobito.                                         </a>
+                                     </div>
+                                      <div class="herder-footer">
+                                            <div class="herder-footer-category">politique</div>
+                                                <div class="herder-footer-type"> - Récit</div>
+                                        </div>
+                                </div>
+                            </div>
+                 </div>
+                    
+                     <div class="sections">
+                        <div class="herder-sections-header">
+                            <div class="d-fle">
+                                    <span class="spans"></span>
+                                    <div class="herder-sections-header-title">amerique</div>
+                            </div>
+                            <div class="">
+                                  <a href="">
+                                    <svg class="fleche">
+                                        <use href="./svg/fleche.svg#ok" ></use>
+                                    </svg>
+                                  </a>
+                            </div>
+                         </div>
+                         <div class="mains-sections">
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - usa</div>
+                                    <div class="herder-corps">
+                                        <a href="#">La croissance mondiale commence à relantir sous l'effet des droits de doumes americain </a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">politique</div>
+                                           <div class="herder-footer-type"> - Récit</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - bresil</div>
+                                    <div class="herder-corps">
+                                        <a href="#">Trafic d’êtres humains : le Brésil et l’Afrique du Sud dans le viseur des Etats-Unis</a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">politique</div>
+                                           <div class="herder-footer-type"> - video</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - argentina </div>
+                                    <div class="herder-corps">
+                                        <a href="#">
+                                            En Argentine, Javier Milei enchaîne les revers avant les élections législatives de mi-mandat
+                                        </a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">politique</div>
+                                         <div class="herder-footer-type"> - Récit</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - mexique </div>
+                                    <div class="herder-corps">
+                                        <a href="#">
+Qui est Claudia Sheinbaum, la présidente du Mexique qui réussit à tenir tête à Donald Trump ?                                        </a>
+                                        </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category"> politique</div>
+                                        <div class="herder-footer-type"> - video</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                     <div class="sections">
+                        <div class="herder-sections-header">
+                            <div class="d-fle">
+                                    <span class="spans"></span>
+                                    <div class="herder-sections-header-title">europe</div>
+                            </div>
+                            <div class="">
+                                  <a href="">
+                                    <svg class="fleche">
+                                        <use href="./svg/fleche.svg#ok" ></use>
+                                    </svg>
+                                  </a>
+                            </div>
+                         </div>
+                           <div class="mains-sections">
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - russie</div>
+                                    <div class="herder-corps">
+                                        <a href="#">
+                                            La Russie affirme avoir intercepté plus de 250 drones d'une attaque ukrainienne massive    
+                                        </a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">politique</div>
+                                           <div class="herder-footer-type"> - Récit</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - france </div>
+                                    <div class="herder-corps">
+                                        <a href="#">
+                                            “Pitoyable” : le judoka japonais Tatsuru Saito, battu par Teddy Riner, partage son immense</a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">sport</div>
+                                           <div class="herder-footer-type"> - video</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - Espagne </div>
+                                    <div class="herder-corps">
+                                        <a href="#">
+                                            Lamine Yamal : le père du prodige espagnol poignardé, quatre personnes ont été interpellées 
+                                         </a>
+                                    </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category">sport</div>
+                                         <div class="herder-footer-type"> - Récit</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="main-sections">
+                                    <div class="herder-pays"> - france  </div>
+                                    <div class="herder-corps">
+                                        <a href="#">
+Le Nobel de médecine décerné à un trio pour la recherche sur le contrôle du système immunitaire
+
+                                        </a>
+                                        </div>
+                                    <div class="herder-footer">
+                                        <div class="herder-footer-category"> medecine </div>
+                                        <div class="herder-footer-type"> - video</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+               </div>
             </div>
             
     </section>
-
-
-    <!--
-    
-     <footer class="footere">
-        <div class=" container">
-            <div class="footere-cat">
-                <div class="">
-                    <a href="" class="items-cat">emission</a>
-                    <a href="" class="items-cat">journal</a>
-                    <a href="" class="items-cat">magazine</a>
-                </div>
-                <div class="">
-                    <a href="" class="items-cat">podcast</a>
-                    <a href="" class="items-cat">bultin </a>
-                    <a href="" class="items-cat">revue</a>
-                </div>
-            </div>
-        </div>
-     </footer>
-
-    -->
-     <section class="revues">
+    <section class="revues">
         <div class="container">
              <h1 class="revue-title bars">revue</h1>
             <div class="revue-flex">
@@ -616,8 +747,40 @@ Le Nobel de médecine décerné à un trio pour la recherche sur le contrôle du
             </div>
         </div>
      </section>
-     <div class="menu-footeur">
-        <div class="menus-nav container">
+     <footer class="main-footer">
+        <div class="container">
+            <div class="">
+                <div class="">
+                    <h2 class="continant-title">continent</h2>
+                    <div class="par_continant">
+                       <div class="continant">
+                        <a href="">afrique</a>
+                        <a href="">amerique</a>
+                        <a href="">europe</a>
+                       </div>
+                        <div class="asie_oceani">
+                            <a href="">asie</a>
+                            <a href="">oceanie</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dark-mode form-check">
+                   
+                    <input type="checkbox" class="input-dark" id="mycheckbox" aria-labelledby="switch-label">
+                     <Label class="switch" role="switch" aria-checked="false"></Label>
+                    <span class="soleil">
+                        
+                    </span>
+                    <span class="nuit">
+                        
+                    </span>
+
+                </div>
+            </div>
+        </div>
+     </footer>
+        <div class="menu-footeur">
+            <div class="menus-nav container">
             
            <div class="menus-nav-icon actived">
              <a href="">
@@ -674,7 +837,9 @@ Le Nobel de médecine décerné à un trio pour la recherche sur le contrôle du
         </div>
      </div>   
 
-    
+
+     
+
 </body>
 </html>
 
