@@ -267,7 +267,7 @@ a{
     background-color: var(--blues);
   }
 
-  .fleche {
+  .fleche , .horloge{
    
     fill: var(--colors);
   }
