@@ -1,0 +1,80 @@
+.header-actus{
+
+    .header-actus-title{
+        font-size: 10px;
+        text-align: justify;
+        margin-top: 10px;
+        font-family: var(--font);
+        
+    }
+    .header-actus-top{
+        margin: 10px 0;
+    }
+    .header-actus-bottom{
+        margin-bottom: 50px;
+    }
+    .header-para{
+        text-align: justify;
+        line-height: 1.6;
+        font-size: 15px;
+   
+        
+        
+    }
+
+      .main-categories{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+ 
+    .main-category.sport{
+    background: var(--sport) ;
+}
+    .header-actus-police-plus-moin{
+        display: flex;
+        gap: 0 2px;
+    }
+
+    .header-actus-police{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 0 5px;
+    }
+
+    .moins, .plus {
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 32px;
+        font-size:  16px;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main-date{
+        font-size: var(--MiniSize);
+        color: var(--colorText);
+        font-style: italic;
+        margin-left: 10px;
+        font-family: var(--font);
+        font-weight: 300;
+
+}
+
+    .main-category{
+        font-size: var(--MaxSize);
+        background-color: var(--blues);
+        font-family: var(--font);
+        color: white;
+        padding: 5px;
+        font-weight: 300;
+        font-style: italic;
+        border-radius: 2px;
+        text-transform: capitalize;
+        
+}
+}
