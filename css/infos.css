@@ -91,9 +91,7 @@
       
         
     }
-    .main-sections{
-      height: 105px;
-    }
+   
    
       .main-sections:last-child::after{
 
@@ -149,5 +147,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 2px 20px;
 
+      }
+      .section-infos{
+        .main-sections{
+          height: 105px;
+        }
       }
 }
