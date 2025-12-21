@@ -9,6 +9,7 @@
 @import url('./footere.css');
 @import url('./revue.css');
 @import url('./nav.css');
+@import url('../css/pages/actus.css');
 /* 011D26*/
 *{
     margin: 0;
