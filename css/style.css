@@ -9,6 +9,8 @@
 @import url('./footere.css');
 @import url('./revue.css');
 @import url('./nav.css');
+@import url('./sporing.css');
+
 @import url('../css/pages/actus.css');
 /* 011D26*/
 *{
@@ -244,24 +246,14 @@ a{
  #times{
  fill:  var(--colors) !important;
 }
-   .main-grids{
-   
-    .main-text{
-       
-        margin-top: 10px;
-    }
-  }
+  
 
 
-      .herder-sections-header::after{
-       content: '';
-    position: absolute;
-    top: 2px;
-    display: block;
+  .herder-sections-header::after{
+      
  
     background-color: var(--blues);
-    width: 100%;
-    height: 2px ;
+   
     }
   .herder-sections-header::before{
 
@@ -272,4 +264,24 @@ a{
    
     fill: var(--colors);
   }
+
+     .main-sections::after{
+        background-color: rgba(255, 255, 255, 0.685);
+       
+    }
+    .revue-title{
+      color: var(--colors);
+    }
+    .card-revue-title{
+      color: var(--colors);
+      
+    }
+    
+      .sporing-title{
+        color:  var(--colors);       
+    
+}
+    .card-revue-text{
+      color: rgba(255, 255, 255, 0.89);
+    }
 }

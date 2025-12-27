@@ -8,6 +8,7 @@
         color:  var(--colorText);
         margin-bottom: 5px;
         font-weight: 500;
+        
         font-family: var(--font);
     }
     .mains{
@@ -16,6 +17,7 @@
     }
      .grid-title{
         margin-bottom: 20px;
+    
     }
     .main-main{
         display: flex;
@@ -29,6 +31,7 @@
         font-size: .8125rem;
         text-align: justify;  
         line-height: 1.6;
+     
     }
 
      
@@ -105,6 +108,42 @@
         order: 1;
          width: 100%;
       
+    }
+}
+
+@media only  screen and (max-width:300px){
+   
+    .main-grids{
+      
+        .mains{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px  0px;
+        }
+
+        .main-main{
+            display: block;
+            
+    }
+     .main-title{
+        font-family: var(--font);
+        font-size: .8125rem;
+        text-align: justify;  
+        line-height: 1.6;
+        margin: 5px 0;
+      
+     
+    }
+
+     .main-image{
+        order: 2;
+        img{
+            display: block;
+            width: 100% !important;
+            height: 120px !important;
+        }
+    }
+          
     }
 }
 @media only  screen and (max-width:395px){
