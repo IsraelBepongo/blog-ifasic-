@@ -62,7 +62,7 @@
     .herder-sections-header-title{
       font-weight: 500;
       font-size: var(--fsSize);
-      font-family: var(--font);
+      font-family: var(--font1);
       text-transform: capitalize;
     }
 
@@ -72,7 +72,7 @@
       color: var(--blues);
 }
   .herder-footer-category{
-        font-family: var(--font);
+        font-family: var(--font1);
         font-size: .875rem;
         text-transform: capitalize;
 
@@ -80,11 +80,11 @@
      .herder-pays{
         font-size: .875rem;
         text-transform: capitalize;
-        font-family: var(--font);
+        font-family: var(--font1);
     }
     
     .herder-corps{
-        font-family: var(--font);
+        font-family: var(--font1);
         font-weight: 500;
 
         font-size: .875rem;
@@ -110,7 +110,7 @@
         justify-content: space-between;
     }
     .herder-footer-type{
-        font-family: var(--font);
+        font-family: var(--font1);
         font-style: italic;
         text-transform: capitalize;
          font-size: .875rem;

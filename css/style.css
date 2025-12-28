@@ -49,7 +49,7 @@ font-family: "DINNextLTPro-Regular",sans-serif;
    --culture: #28A745;
    --tech:#800080;
    --colorText:#222222;
-   --politique:#E0E0E0;
+   --politique:#0056b3;
    --bars:rgba(0, 0, 0, 0.781);
    --policy: 'lato';
    --music:#0056b3 ;
@@ -184,6 +184,14 @@ a{
   background-color: var(--darModeColor);
  
   transition: .8s;
+
+   .herder-categorie-header::after{
+    background-color: var(--blues);
+    }
+  .herder-categorie-header::before{
+      background-color: var(--blues);
+    
+    }
   color: var(--colors);
 
     .main-date{
@@ -272,6 +280,11 @@ a{
      .main-sections::after{
         background-color: rgba(255, 255, 255, 0.685);
        
+    }
+        
+    .main-categorie::after{
+       
+        background-color: rgba(255, 255, 255, 0.685);
     }
     .revue-title{
       color: var(--colors);

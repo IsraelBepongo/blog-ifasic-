@@ -16,7 +16,7 @@
         text-align: left;
         color:  var(--colorText);
         font-weight: 500;
-        font-family: var(--font);
+        font-family: var(--font1) !important;
         
     }
     .sporings-text{
@@ -92,7 +92,7 @@
         img{
            display: block;
             min-width: 160px; 
-            height: 120px ;
+            height: 120px;
             
             border-radius: 5px;
         }
@@ -147,7 +147,7 @@
         text-align: left;
         color:  var(--colorText);
         font-weight: 500;
-        font-family: var(--font);
+        ;
         
     }
     .sporings-text{
