@@ -1,0 +1,147 @@
+.categorie-infos{
+  margin-bottom: 30px;
+    .categorie{
+      display: grid;
+      grid-template-columns: 1fr;
+    
+}
+
+ .spans{
+      width: 20px;
+      display: block;
+      height: 20px;
+      border-radius: 100%;
+  }
+.spans.sports{
+   background-color: var(--sport);
+}
+.herder-corps:hover{
+       text-decoration:underline var(--blues) 1.5px;
+      transition: .3s;
+      color: var(--blues);
+}
+
+  .herder-footer-category{
+        font-family: var(--font1);
+        font-size: .875rem;
+        text-transform: capitalize;
+
+    }
+     .herder-pays{
+        font-size: .875rem;
+        text-transform: capitalize;
+        font-family: var(--font1);
+    }
+    
+    .herder-corps{
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: .875rem;
+        padding: 10px 0;
+      
+        
+    }
+
+       
+      .main-categorie:last-child::after{
+        content: '';
+        background-color: rgba(0, 0, 0, 0.486);
+        display: block;
+        width: 0%;
+    }
+     .herder-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .herder-footer-type{
+        font-family: var(--font1);
+        font-style: italic;
+        text-transform: capitalize;
+         font-size: .875rem;
+
+    }
+     
+    .main-categorie::after{
+        content: '';
+        background-color: rgba(17, 17, 17, 0.26);
+        display: block;
+        width: 100%;
+        height: 1px;
+     margin: 10px 0;
+
+    }
+
+.spans.techs{
+ background-color: var(--tech);
+}
+.spans.pol{
+ background-color: var(--politique);
+}
+.spans.eco{
+ background-color: black;
+}
+
+.herder-categorie-header-title{
+      font-weight: 500;
+      font-size: var(--fsSize);
+      font-family: var(--font1);
+      text-transform: capitalize;
+    }
+  .d-fle{
+      display: flex;
+      align-items: center;
+      gap: 0 5px;
+    }
+   .fleche{
+      width: 35px;
+      height: 35px;
+      margin-top: 5px;
+    }
+
+     .herder-categorie-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+     
+    }
+    .herder-categorie-header::after{
+       content: '';
+    position: absolute;
+    top: 2px;
+    display: block;
+ 
+    background-color: var(--bars);
+    width: 100%;
+    height: 2px ;
+    }
+  .herder-categorie-header::before{
+    content: '';
+    position: absolute;
+    bottom:  2px;
+    display: block;
+    background-color: var(--bars);
+    width: 100%;
+    height: 2px ;
+    }
+}
+
+
+  @media only  screen and (min-width:800px) {
+
+  
+      .categorie-flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 15px;
+
+      }
+      
+      .categorie-infos{
+        .main-categorie{
+          height: 105px ;
+        }
+      }
+   
+}
