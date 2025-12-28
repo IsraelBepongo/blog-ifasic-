@@ -10,7 +10,7 @@
 @import url('./revue.css');
 @import url('./nav.css');
 @import url('./sporing.css');
-
+@import url('./categorie.css');
 @import url('../css/pages/actus.css');
 /* 011D26*/
 *{
@@ -27,6 +27,9 @@ font-family: "DINNextLTPro-Regular",sans-serif;
   font-size: 18px;
   F9F9F9
     --footer: #011D26;
+    Open Sans Condensed meduim
+    Playfair Display
+    Roboto
   */
   
 :root{
@@ -37,6 +40,7 @@ font-family: "DINNextLTPro-Regular",sans-serif;
     --blues : #0468FF;
     --footer: rgba(0, 0, 0, 0.918) ;
     --font: 'Roboto', sans-serif;
+    --font1: 'Playfair Display';
     --MiniSize:.8125rem;
     --MaxSize:.75rem;
     --pretoFranco:rgba(0, 0, 0, 0.623);
