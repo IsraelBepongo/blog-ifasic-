@@ -31,7 +31,7 @@
         overflow:hidden;
      }
     .card-revue-text{
-        font-family: var(--policy);
+        font-family: var(--font1);
         text-align: justify;
         font-size: 14px;
     
