@@ -45,7 +45,7 @@
     }
 }
 
-@media only  screen and (min-width:920px) {
+@media only  screen and (min-width:701px) {
     .menu-footeur{
         display: none;
 
