@@ -12,6 +12,9 @@
 @import url('./sporing.css');
 @import url('./categorie.css');
 @import url('../css/pages/actus.css');
+@import url('../css/StyleAdmin/categorie.css');
+@import url('../css/StyleAdmin/Actualite.css');
+
 /* 011D26*/
 *{
     margin: 0;
