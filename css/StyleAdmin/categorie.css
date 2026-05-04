@@ -1,0 +1,53 @@
+:root{
+    --colorFond: #000000b6;
+}
+body{
+    background-color: rgba(227, 222, 244, 0.625) !important;
+}
+
+.form{
+    background: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    .form-control{
+        width: 100%;
+        padding: 10px 5px;
+        border-radius: 10px 5px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-family: var(--font1);
+        color: var(--colorFond);
+        border: 1px solid var(--blues);
+        font-weight: 200;
+    }
+
+    .btn-primary{
+        margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: var(--blues);
+    border: 1px solid var(--blues);
+    width: 100%;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 4px 0;
+    border-radius: 4px;
+    font-family: var(--font);
+
+}
+.form-title{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: var(--font);
+    font-weight: 500;
+    color: var(--colorFond);
+    margin-bottom: 8px;
+
+}
+.form-label{
+    margin-bottom: 10px;
+    display: block;
+}
+}
