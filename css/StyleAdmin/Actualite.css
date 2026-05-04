@@ -27,6 +27,8 @@ body{
     }
     .grid-label{
         display: flex;
+            margin-bottom: 15px;
+
         gap: 0 4px;
         align-items: center;
     }
@@ -112,7 +114,6 @@ body{
     font-family: var(--font);
     font-weight: 600;
     color: var(--colorFond);
-    margin-bottom: 8px;
 
 }
 .form-label{
@@ -160,6 +161,10 @@ body{
         display: block;
         margin-left: auto;
         
+    }
+      .grid-label{
+            margin-bottom: 14px;
+
     }
  
       .file-card{
