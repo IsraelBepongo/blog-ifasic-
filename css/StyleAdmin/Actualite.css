@@ -119,8 +119,9 @@ body{
 .form-label{
     margin-bottom: 5px;
     display: block;
-    font-weight: 500;
-    color: #00000092;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000a5;
     font-family: var(--font1);
 }
 }
