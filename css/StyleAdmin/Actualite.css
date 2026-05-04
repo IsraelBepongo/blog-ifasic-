@@ -41,7 +41,7 @@ body{
 
     .form-form{
         display: grid;
-        gap: 10px ;
+        gap: 18px 10px ;
     }
 
     .form-control , .form-textarea{ 
